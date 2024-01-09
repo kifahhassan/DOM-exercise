@@ -13,3 +13,13 @@ para.textContent = 'Hey, I\'m red!';
 container.appendChild(para);
 
 para.style.color = 'red';
+
+const h3 = document.createElement('h3');
+h3.classList.add('h3');
+h3.textContent = 'I\'m a blue text';
+
+container.appendChild(h3);
+
+h3.style.color = 'blue';
+
+
